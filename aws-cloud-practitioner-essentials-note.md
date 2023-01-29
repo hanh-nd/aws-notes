@@ -89,7 +89,9 @@ AWS Cloud Practitioner Essentials Note:
 
 - **Edge locations:**
   - is a site the Amazon Cloudfront uses to store cached copies of your content closer to your customer for faster delivery
-
+  - AWS CloudFront: is a content delivery service. It uses a network of edge locations to cache content and deliver content to customers all over the world. When content is cached, it is stored locally as a copy.
+  - AWS Outposts: is a service that enables you to run infrastructure in a hybrid cloud approach. It allow you to run AWS services right onto your data center.
+  
 - **How to interact with AWS resources:**
 
   Every interaction to AWS resources will be via API calls.
@@ -101,12 +103,12 @@ AWS Cloud Practitioner Essentials Note:
   - Software development kits (SDK):
     - SDK make it easier for you to use AWS services through an API designed for your programming language or platform. It enables you to use AWS services with your existing applications or create entirely new applications that will run on AWS.
 
-- **AWS Elastic Beanstalk:**
-  - you provide code and configuration settings, and EB deploys the resources nesessary to perform the following tasks:
+  - AWS Elastic Beanstalk:
+    - you provide code and configuration settings, and EB deploys the resources nesessary to perform the following tasks:
     - Adjust capacity
     - Load balancing
     - Automatic scaling
     - Application health monitoring
 
-- **AWS CloudFormation:**
-  - you can treat your infrastructure as code. This meas that you can build an enviroent by writing linies of code instead of using the AWS Management Console to individually provision resources.
+  - AWS CloudFormation:
+    - you can treat your infrastructure as code. This meas that you can build an enviroent by writing linies of code instead of using the AWS Management Console to individually provision resources.
